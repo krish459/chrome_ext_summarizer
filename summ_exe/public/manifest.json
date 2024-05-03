@@ -1,25 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+  "manifest_version": 3,
+  "name": "Technical Paper Summarizer",
+  "version": "1.0",
+  "description": "Summarizes technical papers for easy understanding.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "./images/logo_16.jpg",
+      "48": "./images/logo_48.jpg",
+      "128": "./images/logo_128.jpg"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  },
+  "permissions": ["activeTab"]
 }
